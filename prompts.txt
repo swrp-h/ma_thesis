@@ -1,0 +1,20 @@
+1. Zero-shot prompts (no context):
+- "Provide 10 easier substitutes for the word [complex word]."
+- "List 10 easier substitutes for the word [complex word]."
+
+2. Zero-shot prompts (with context):
+- "Context: [sentence] \n Given the above context, provide 10 easier substitutes for the word [complex word]."
+- "Context: [sentence] \n Given the above context, list 10 easier substitutes for the word [complex word]."
+
+3. Zero-shot superprompt:
+- "Context: [sentence] \n Given the above context, list 10 easier substitutes for the word [complex word]. Rank them from easiest to hardest."
+
+4. Single-shot superprompt:
+Context: A local witness said a separate group of attackers disguised in burqas -
+the head-to-toe robes worn by conservative Afghan women - then tried to storm the
+compound.\n Question: Given the above context, list ten alternative words for “dis-
+guised” that are easier to understand.\n Answer:\n1. concealed\n2. dressed\n3. hid-
+den\n4. camouflaged\n5. changed\n6. covered\n7. masked\n8. unrecognizable\n9.
+converted\n10. impersonated\n\n Context: ’[SENTENCE]’\n Question: Given the
+above context, list ten alternatives for [WORD]’ that are easier to understand. Rank
+them from easiest to hardest.\n”
